@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0c0806;
+  background-image: radial-gradient(circle at 50% 0%, rgba(120, 45, 10, 0.2) 0%, rgba(12, 8, 6, 1) 70%);
+  background-attachment: fixed;
+  color: #f1dfd8;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+}
+
+button, input, textarea {
+  font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #15100c;
+}
+::-webkit-scrollbar-thumb {
+  background: #4a2d1f;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff5100;
+}
